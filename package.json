@@ -1,0 +1,36 @@
+{
+    "name": "matedracunai-theme",
+    "displayName": "Matedracunai Theme",
+    "description": "A powerfull color theme that mixes materialize, monokai and dracula. Install and feel the power!",
+    "version": "0.0.1",
+    "license": "MIT",
+    "publisher": "rjarouche",
+    "icon": "ico.png",
+    "maintainers": [
+      "Rodrigo Jarouche <rjarouche@gmail.com>"
+    ],
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+      "theme",
+      "dark",
+      "materialize",
+      "monokai",
+      "dracula",
+      "jarouche",
+      "Matedracunai"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Matedracunai by Jarouche",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Matedracunai by Jarouche-color-theme.json"
+            }
+        ]
+    }
+}
